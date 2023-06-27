@@ -15,6 +15,12 @@
   background-color: #fff;
   padding: 20px 35px;
   border-radius: 12px;
+  box-shadow: 5px 5px 5px;
+  transition: all 0.2s ease;
+}
+
+.loginCard:hover {
+  transform: translateY(-6px);
 }
 
 .loginCard h2 {
