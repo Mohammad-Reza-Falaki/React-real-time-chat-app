@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Caprasimo&family=Chivo+Mono:wght@100&family=Roboto&display=swap');
+
+.loginPage {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard {
+  border: 1px solid silver;
+  background-color: #fff;
+  padding: 20px 35px;
+  border-radius: 12px;
+}
+
+.loginCard h2 {
+  font-family: 'Belanosima', sans-serif;
+  color: rgb(93, 93, 93);
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+
+.loginCard span {
+  font-family: 'Caprasimo', cursive;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#9dc2d9, #1236e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button {
+  font-family: 'Belanosima', sans-serif;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f9d58;
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: #07713e;
+}
+
+.button img {
+  width: 30px;
+  margin-right: 10px;
+}
