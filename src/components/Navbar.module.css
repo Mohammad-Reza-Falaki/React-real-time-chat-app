@@ -1,7 +1,7 @@
 .container {
   height: 50px;
   background: rgb(97,96,172);
-  background: linear-gradient(90deg, rgba(97,96,172,1) 0%, rgba(168,181,200,1) 100%);
+  background: linear-gradient(90deg, rgb(232, 232, 237) 0%, rgb(48, 119, 225) 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;
